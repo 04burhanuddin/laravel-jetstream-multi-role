@@ -1,7 +1,7 @@
 # Laravel Multi Role
 
 - Laravel Jetstream
-- Livewire
+- Livewire V3 beta, Downgrade to V2 cek `composer.json`
 - Tailwindcss
 
 ## How To Run
