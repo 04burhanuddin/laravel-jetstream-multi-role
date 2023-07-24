@@ -30,11 +30,11 @@
   ```txt
   Login as admin
   email : admin@gmail.com
-  password : Admin123
+  password : admin1234
   
   Login as user
   email : user@gmail.com
-  password : Admin123
+  password : user1234
   ```
   > Note: untuk mengganti data user, sebelum menjalankan **seed** ganti data pada `database/seeders/UserSeeder.php` ganti sesuai kebutuhan jika ada tambahan costum role, edit default role pada migration users, dan modifikasi **HomeController** untuk role baru pada if...else
 
