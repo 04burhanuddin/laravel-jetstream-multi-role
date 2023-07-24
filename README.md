@@ -23,8 +23,9 @@
   DB_PASSWORD=
   ```
 - Migrate `php artisan migrate`
-- Active Storage lin `php artisan storage:link`
+- Active Storage link `php artisan storage:link`
 - Jalankan Seeder `php artisan db:seed`
+- Development mode `npm run dev` build to production `npm run build`
 - Finally `php artisan serve`
 - Login apliaction
   ```txt
