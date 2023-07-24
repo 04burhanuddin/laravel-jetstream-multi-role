@@ -9,7 +9,7 @@
 - Download semua dependencies `composer update `
 - Settings Environment, on windows `copy .env.example .env` and on linux `cp .env.example .env`
 - Generate enkripsi key app `php artisan key:generate`
-- Create new database `CREATE DATABASE nama_database`
+- Create new database on mysql query `CREATE DATABASE nama_database` atau di phpmyadmin
 - Settings environment database **db_database**, **user**, **password**
   ```env
   // jika profile tidak muncul ganti APP_URL menjadi
