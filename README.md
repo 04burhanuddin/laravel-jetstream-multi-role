@@ -10,9 +10,9 @@
 - Settings Environment, on windows `copy .env.example .env` and on linux `cp .env.example .env`
 - Generate enkripsi key app `php artisan key:generate`
 - Create new database on mysql query `CREATE DATABASE nama_database` atau di phpmyadmin
-- Settings environment database **db_database**, **user**, **password**
+- Settings environment database **db_name**, **user**, **password**
   ```env
-  // jika profile tidak muncul ganti APP_URL menjadi
+  // jika profile photo tidak muncul ganti APP_URL menjadi
   APP_URL=http://127.0.0.1:8000
 
   DB_CONNECTION=mysql
